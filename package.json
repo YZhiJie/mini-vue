@@ -1,0 +1,18 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "教学级 mini-vue：手写 Vue3 响应式系统与运行时核心，用于理解 @vue/reactivity 与 @vue/runtime-core 的原理",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:example": "esbuild examples/main.ts --bundle --format=esm --outfile=examples/bundle.js"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "esbuild": "^0.21.5",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini-vue 计数器示例</title>
+    <style>
+      body {
+        font-family: -apple-system, "PingFang SC", sans-serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        background: #f6f7f9;
+      }
+      .counter {
+        text-align: center;
+        background: #fff;
+        padding: 32px 48px;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      }
+      .value {
+        font-size: 56px;
+        margin: 8px 0 20px;
+        font-variant-numeric: tabular-nums;
+      }
+      button {
+        font-size: 18px;
+        padding: 8px 24px;
+        margin: 0 8px;
+        border: none;
+        border-radius: 8px;
+        background: #42b883;
+        color: #fff;
+        cursor: pointer;
+      }
+      button:hover {
+        opacity: 0.85;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- mini-vue 的挂载点：createApp(App).mount("#app") -->
+    <div id="app"></div>
+    <!-- 由 examples/main.ts 打包生成：pnpm install 后执行 pnpm run build:example -->
+    <script type="module" src="./bundle.js"></script>
+  </body>
+</html>

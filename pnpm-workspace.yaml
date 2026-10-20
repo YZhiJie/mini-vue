@@ -1,0 +1,3 @@
+# 允许 esbuild 运行安装脚本（vitest 依赖它）
+onlyBuiltDependencies:
+  - esbuild
